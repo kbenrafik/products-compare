@@ -1,0 +1,49 @@
+@import '../../App/style/variables.scss';
+
+.product {
+  position: relative;
+  padding: 0 10px;
+
+  &__delete {
+    width: 35px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 1;
+  }
+
+  &__image {
+    width: 150px;
+  }
+
+  &__image-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  &__name {
+    color: blue;
+    font-size: 16px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__name-container {
+    margin: 10px 0 20px 0;
+  }
+
+  &__price {
+    color: black;
+    font-size: 20px;
+  }
+
+  &__price-unit {
+    color: $color_gray;
+    font-size: 12px;
+  }
+}

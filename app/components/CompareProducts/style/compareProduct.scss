@@ -1,0 +1,19 @@
+.compare__product {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+  &--hidden {
+    display: none;
+  }
+
+  &-badge {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

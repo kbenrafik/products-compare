@@ -1,0 +1,11 @@
+@mixin on-narrow() {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin on-narrow-and-medium {
+  @media screen and (max-width: 996px) {
+    @content;
+  }
+}

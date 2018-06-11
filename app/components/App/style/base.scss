@@ -1,0 +1,18 @@
+@import './vendor/reset.css';
+@import './variables.scss';
+@import './responsive.scss';
+
+main {
+  min-height: 100vh;
+  width: 969px;
+  margin: 0 auto;
+
+  @include on-narrow-and-medium {
+    width: 100%;
+  };
+}
+
+header {
+  background: $color_blue;
+  padding: 30px 0;
+}
