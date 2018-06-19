@@ -4,7 +4,7 @@
   "description": "Zamro compare excercice",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "if test \"$NODE_ENV\" = \"production\"; then npm run production; else webpack-dev-server; fi",
     "clean": "rimraf dist",
     "production": "cross-env npm run clean && webpack --config webpack.production.config.js --progress --profile --colors",
     "lint": "eslint ./app/**/**.js",
