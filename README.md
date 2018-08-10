@@ -1,4 +1,4 @@
-# Zamro Compare
+# Products Compare
 
 Hello readers, this App include :
 
@@ -88,7 +88,3 @@ I keep it simple and easy :
 - Any CSS methodology : BEM I love it
 - Responsiveness : I think I cover 60% without any library, if I have the time I would love to finish it
 - Browser backward compatibility (IE11) : I used flex, it works on IE11 but with some issues
-
-I would love to explain all of this with live voice.
-
-Thanks.
